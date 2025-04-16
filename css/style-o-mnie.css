@@ -1,0 +1,74 @@
+/* Reset marginesów i ramek */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ustawienia bazowe dla body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0; /* kremowe tło */
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Styl dla głównego kontenera treści */
+main.about-content {
+    background-color: #ffffff;
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+    flex: 1;
+}
+
+/* Główne nagłówki */
+main.about-content h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    color: #222;
+}
+
+/* Podsekcje - np. Wykształcenie, Publikacje */
+main.about-content h3 {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+    color: #444;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+/* Akapity */
+main.about-content p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-size: 1rem;
+}
+
+/* Listy wypunktowane */
+main.about-content ul {
+    margin-left: 25px;
+    margin-bottom: 30px;
+    list-style-type: disc;
+}
+
+main.about-content ul li {
+    margin-bottom: 10px;
+    font-size: 0.98rem;
+    line-height: 1.5;
+}
+
+/* Stopka - zachowanie na dole */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: auto;
+    width: 100%;
+}
