@@ -1,3 +1,8 @@
+* :root {
+    --magnolia: #f8f0fa;
+    --magnolia-dark: #d8bfe8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fffaf0; /* kremowe tło */
+    background-color: #fffaf0;
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -26,7 +31,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: var(--magnolia-dark);
 }
 
 .subtitle {
@@ -55,11 +60,13 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-nav ul li a:hover {
-    color: #bb8866; /* delikatny beżowy akcent */
+nav ul li a:hover,
+nav ul li a.active {
+    color: var(--magnolia-dark);
+    border-bottom: 2px solid var(--magnolia-dark);
+    padding-bottom: 3px;
 }
 
-/* Styl dla głównego kontenera treści */
 main.about-content {
     background-color: #ffffff;
     padding: 60px 20px;
@@ -68,32 +75,28 @@ main.about-content {
     flex: 1;
 }
 
-/* Główne nagłówki */
 main.about-content h2 {
     text-align: center;
     margin-bottom: 30px;
     font-size: 2rem;
-    color: #222;
+    color: var(--magnolia-dark);
 }
 
-/* Podsekcje - np. Wykształcenie, Publikacje */
 main.about-content h3 {
     margin-top: 40px;
     margin-bottom: 15px;
     font-size: 1.3rem;
-    color: #444;
+    color: var(--magnolia-dark);
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
 }
 
-/* Akapity */
 main.about-content p {
     margin-bottom: 20px;
     text-align: justify;
     font-size: 1rem;
 }
 
-/* Listy wypunktowane */
 main.about-content ul {
     margin-left: 25px;
     margin-bottom: 30px;
@@ -106,7 +109,6 @@ main.about-content ul li {
     line-height: 1.5;
 }
 
-/* Stopka - zachowanie na dole */
 footer {
     background: #333;
     color: white;

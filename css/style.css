@@ -1,3 +1,8 @@
+*:root {
+    --magnolia: #f8f0fa;
+    --magnolia-dark: #d8bfe8;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -10,7 +15,7 @@ html, body {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #fffaf0; /* kremowe tło */
+    background-color: #fffaf0;
     color: #333;
     line-height: 1.6;
     display: flex;
@@ -26,7 +31,7 @@ header {
 
 header h1 {
     font-size: 2.5rem;
-    color: #333;
+    color: var(--magnolia-dark);
 }
 
 .subtitle {
@@ -56,11 +61,17 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #bb8866; /* delikatny beżowy akcent */
+    color: var(--magnolia-dark);
+}
+
+nav ul li a.active {
+    color: var(--magnolia-dark);
+    border-bottom: 2px solid var(--magnolia-dark);
+    padding-bottom: 3px;
 }
 
 .hero {
-    background-image: url('img/hero.jpg'); /* wstaw swoje zdjęcie tła */
+    background-image: url('img/hero.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
@@ -87,6 +98,7 @@ nav ul li a:hover {
     max-width: 800px;
     margin: auto;
     font-weight: 500;
+    color: var(--magnolia);
 }
 
 .about {
@@ -96,7 +108,7 @@ nav ul li a:hover {
     padding: 60px 20px;
     flex-wrap: wrap;
     background-color: #fff;
-    flex: 1; /* Dzięki temu o mnie się rozciąga, a stopka jest na dole */
+    flex: 1;
 }
 
 .about img {
@@ -115,10 +127,23 @@ nav ul li a:hover {
 
 .about h3 {
     margin-bottom: 15px;
-    color: #222;
+    color: var(--magnolia-dark);
 }
 
-/* Stopka - zawsze na dole */
+button {
+    background-color: var(--magnolia-dark);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #c8a6df;
+}
+
 footer {
     background: #333;
     color: white;
