@@ -71,7 +71,7 @@ nav ul li a.active {
 }
 
 .hero {
-    background-image: url('img/hero.jpg');
+    background-image: url('images/logo.jpg');
     background-size: cover;
     background-position: center;
     padding: 100px 20px;
