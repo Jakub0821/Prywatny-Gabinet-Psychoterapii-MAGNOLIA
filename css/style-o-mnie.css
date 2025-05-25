@@ -1,4 +1,4 @@
-* :root {
+:root {
     --magnolia: #f8f0fa;
     --magnolia-dark: #d8bfe8;
 }
@@ -73,6 +73,17 @@ main.about-content {
     max-width: 1000px;
     margin: auto;
     flex: 1;
+}
+
+/* ✅ Styl zdjęcia profilowego */
+.about-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px auto;
+    display: block;
+    border: 4px solid #eee;
 }
 
 main.about-content h2 {
