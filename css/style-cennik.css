@@ -1,0 +1,23 @@
+*:root {
+    --magnolia: #f8f0fa;
+    --magnolia-dark: #d8bfe8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffaf0;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
