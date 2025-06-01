@@ -68,14 +68,29 @@ header nav a.active {
     color: white;
 }
 
-/* Pricing */
-.pricing {
+/* Services Section (Cennik-style cards) */
+.services-section {
+    background-color: #fffaf0;
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: var(--magnolia-dark);
+    margin-bottom: 40px;
+}
+
+.cards-wrapper {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    padding: 40px 20px;
-    background-color: #f9f9f9;
+    gap: 30px;
 }
 
 .card {
