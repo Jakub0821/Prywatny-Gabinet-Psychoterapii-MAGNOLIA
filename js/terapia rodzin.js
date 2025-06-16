@@ -1,4 +1,3 @@
-<script>
 const toggleBtn = document.getElementById('toggle-family-info');
 const infoContainer = document.getElementById('family-info');
 
@@ -26,9 +25,8 @@ toggleBtn.addEventListener('click', () => {
   const isVisible = infoContainer.style.display === 'block';
   infoContainer.style.display = isVisible ? 'none' : 'block';
   toggleBtn.textContent = isVisible ? 'Pokaż więcej' : 'Pokaż mniej';
-  
+
   if (!isVisible && !infoContainer.innerHTML.trim()) {
     infoContainer.innerHTML = familyHTML;
   }
 });
-</script>

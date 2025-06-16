@@ -118,20 +118,20 @@ nav ul li a.active {
   line-height: 1.5;
 }
 
-.quote {
-  font-style: italic;
-  background-color: #f4f4f4;
-  border-left: 4px solid #c8a2c8;
-  padding: 10px 15px;
-  margin: 10px 0;
-  color: #444;
+#toggle-family-info {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: var(--magnolia-dark);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.therapy-points {
-  list-style-type: disc;
-  padding-left: 20px;
-  margin-top: 15px;
-  color: #333;
+#toggle-family-info:hover {
+  background-color: #b389c2;
 }
 
 footer {
