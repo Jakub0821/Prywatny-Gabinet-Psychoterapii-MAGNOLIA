@@ -118,6 +118,22 @@ nav ul li a.active {
   line-height: 1.5;
 }
 
+.quote {
+  font-style: italic;
+  background-color: #f4f4f4;
+  border-left: 4px solid #c8a2c8;
+  padding: 10px 15px;
+  margin: 10px 0;
+  color: #444;
+}
+
+.therapy-points {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 15px;
+  color: #333;
+}
+
 footer {
   background: #333;
   color: white;
