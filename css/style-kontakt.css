@@ -22,7 +22,7 @@ body {
   flex-direction: column;
 }
 
-/* Nagłówek */
+/* ===== Nagłówek ===== */
 header {
   text-align: center;
   background-color: #ffffff;
@@ -67,28 +67,51 @@ nav ul li a.active {
   padding-bottom: 3px;
 }
 
-/* Sekcja kontaktowa */
+/* ===== Sekcja kontaktowa ===== */
 .contact {
   padding: 60px 20px;
   background-color: #fff;
   flex: 1;
 }
 
-.contact .container {
-  max-width: 600px;
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 1200px;
   margin: 0 auto;
+  flex-wrap: wrap;
 }
 
-.contact h2 {
+.side-image {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.side-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form-container {
+  flex: 2 1 500px;
+  padding: 20px;
+}
+
+.form-container h2 {
   font-size: 28px;
   color: var(--magnolia-dark);
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
-.contact p {
+.form-container p {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  font-size: 16px;
 }
 
 form {
@@ -124,6 +147,7 @@ form button {
   border: none;
   border-radius: 4px;
   font-size: 16px;
+  font-weight: bold;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -132,7 +156,7 @@ form button:hover {
   background-color: #b192cc;
 }
 
-/* Stopka */
+/* ===== Stopka ===== */
 footer {
   background: #333;
   color: white;
