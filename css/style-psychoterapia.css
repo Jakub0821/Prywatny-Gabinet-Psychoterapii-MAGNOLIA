@@ -66,6 +66,18 @@ nav ul li a.active {
   border-bottom: 2px solid var(--magnolia-dark);
   padding-bottom: 3px;
 }
+.hero-text {
+    position: relative;
+    z-index: 1;
+}
+
+.hero-text h2 {
+    font-size: 2rem;
+    max-width: 800px;
+    margin: auto;
+    font-weight: 500;
+    color: var(--magnolia);
+}
 
 /* Sekcja usług */
 .services-section {

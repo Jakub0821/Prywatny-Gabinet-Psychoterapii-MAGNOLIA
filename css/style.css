@@ -88,19 +88,6 @@ nav ul li a.active {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.hero-text {
-    position: relative;
-    z-index: 1;
-}
-
-.hero-text h2 {
-    font-size: 2rem;
-    max-width: 800px;
-    margin: auto;
-    font-weight: 500;
-    color: var(--magnolia);
-}
-
 .about {
     display: flex;
     align-items: center;
@@ -125,7 +112,7 @@ nav ul li a.active {
     margin: 20px;
 }
 
-.about h3 {
+.about h2 {
     margin-bottom: 15px;
     color: var(--magnolia-dark);
 }
