@@ -63,16 +63,23 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .hero {
-  background-color: #fffaf0; /* zamiast tła graficznego */
-  height: 180px;
+  background-color: #fffaf0;
+  padding: 30px 0;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .hero-logo {
-  max-height: 160px;
-  width: auto;
+  max-width: 220px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hero-logo:hover {
+  transform: scale(1.05);
 }
 
 /* ===== About Section ===== */
