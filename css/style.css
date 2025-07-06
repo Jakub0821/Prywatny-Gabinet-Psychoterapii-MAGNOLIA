@@ -62,7 +62,7 @@ nav ul li a.active {
 
 /* ===== Hero Banner ===== */
 .hero {
-  background-image: url("../images/logo.jpg"); /* ścieżka z css/ do images/ */
+  background-image: url("../images/magnolia.jpg"); /* ścieżka z css/ do images/ */
   background-size: cover;
   background-position: center;
   height: 300px;
