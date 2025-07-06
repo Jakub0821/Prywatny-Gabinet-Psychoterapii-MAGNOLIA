@@ -62,7 +62,7 @@ nav ul li a.active {
 
 /* ===== Hero Banner ===== */
 .hero {
-  background-image: url("../images/logo.jpg");
+  background-image: url("/images/logo.jpg"); /* ścieżka z css/ do images/ */
   background-size: cover;
   background-position: center;
   height: 300px;
@@ -70,7 +70,6 @@ nav ul li a.active {
   align-items: center;
   justify-content: center;
 }
-
 .hero-text {
   text-align: center;
   color: white;
