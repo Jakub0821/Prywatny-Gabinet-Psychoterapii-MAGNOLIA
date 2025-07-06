@@ -15,7 +15,7 @@ html, body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0; /* Kremowe tło */
+  background-color: #fffaf0; /* kremowe tło */
   color: #333;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
+  background-color: #fffaf0; /* spójne z tłem strony */
 }
 
 header h1 {
@@ -60,23 +61,18 @@ nav ul li a.active {
   color: var(--magnolia-dark);
 }
 
-/* ===== Hero (bez tła graficznego) ===== */
+/* ===== Hero ===== */
 .hero {
-  background-color: #fffaf0; /* kremowe tło zamiast obrazka */
-  height: 300px;
+  background-color: #fffaf0; /* zamiast tła graficznego */
+  height: 180px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.hero-text {
-  text-align: center;
-  color: #333;
-}
-
 .hero-logo {
-  max-width: 200px;
-  height: auto;
+  max-height: 160px;
+  width: auto;
 }
 
 /* ===== About Section ===== */
