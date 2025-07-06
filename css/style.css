@@ -15,11 +15,11 @@ html, body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0;
+  background-color: #fffaf0; /* Kremowe tło */
   color: #333;
-  line-height: 1.6;
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 /* ===== Header ===== */
@@ -60,19 +60,23 @@ nav ul li a.active {
   color: var(--magnolia-dark);
 }
 
-/* ===== Hero Banner ===== */
+/* ===== Hero (bez tła graficznego) ===== */
 .hero {
-  background-image: url("../images/magnolia.jpg"); /* ścieżka z css/ do images/ */
-  background-size: cover;
-  background-position: center;
+  background-color: #fffaf0; /* kremowe tło zamiast obrazka */
   height: 300px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .hero-text {
   text-align: center;
-  color: white;
+  color: #333;
+}
+
+.hero-logo {
+  max-width: 200px;
+  height: auto;
 }
 
 /* ===== About Section ===== */
@@ -81,9 +85,9 @@ nav ul li a.active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px;
+  padding: 40px 20px 80px;
   gap: 30px;
-  background-color: #f9f9f9;
+  background-color: #fffaf0;
 }
 
 .about img {
