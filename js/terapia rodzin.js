@@ -2,10 +2,7 @@ const toggleBtn = document.getElementById('toggle-family-info');
 const infoContainer = document.getElementById('family-info');
 
 const familyHTML = `
-  <blockquote class="quote">
-    „Prawdziwe problemy w życiu to zwykłe sprawy, które nigdy nawet nie przeszły nam przez myśl i spadają na nas znienacka w któryś luźny wtorek”.
-    <br><strong>– Mary Schmich</strong>
-  </blockquote>
+  
   <ul class="therapy-points">
     <li>komunikacja</li>
     <li>wyrażanie emocji</li>
