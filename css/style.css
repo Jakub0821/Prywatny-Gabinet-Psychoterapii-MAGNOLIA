@@ -79,8 +79,8 @@ nav ul li a.active {
 
 /* ===== About Section ===== */
 .about {
-  margin-top: 50px;           /* dodatkowy odstęp od logo */
-  padding: 80px 20px 80px;    /* przestrzeń wewnątrz sekcji */
+  margin-top: 100px;           /* było 50px */
+  padding: 80px 20px 80px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
