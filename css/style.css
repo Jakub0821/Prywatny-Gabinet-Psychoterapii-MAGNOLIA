@@ -69,7 +69,7 @@ nav ul li a.active {
 
 .logo img {
   width: 100vw;           /* nadal cała szerokość przeglądarki */
-  max-height: 300px;      /* ograniczona wysokość (możesz dopasować) */
+  max-height: 200px;      /* ograniczona wysokość (możesz dopasować) */
   object-fit: cover;      /* obraz wypełnia przestrzeń, przycina nadmiar */
   display: block;
   margin: 0 auto;
