@@ -63,20 +63,15 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .logo {
-  display: flex;
-  justify-content: center;
-  padding: 40px 0;
-  background-color: #fffaf0;
+  padding: 0;
+  margin: 0;
 }
 
 .logo img {
-  width: 100%;
-  max-width: 1200px; /* opcjonalnie ogranicz maksymalną szerokość */
+  width: 100vw;
   height: auto;
-  display: block;
-  margin: 0 auto;
-  border-radius: 12px;
-  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+  box-shadow: none;
 }
 
 /* ===== About Section ===== */
