@@ -63,10 +63,11 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .hero {
-  background-image: url('../images/magnolia.jpg'); /* ścieżka do logo jako tło */
-  background-size: cover;
+  background-image: url('../images/magnolia.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
   background-position: center;
-  height: 250px; /* dostosuj w razie potrzeby */
+  height: 400px; /* zwiększona wysokość */
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
