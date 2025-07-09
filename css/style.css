@@ -15,7 +15,7 @@ html, body {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #fffaf0; /* kremowe tło */
+  background-color: #fffaf0;
   color: #333;
   display: flex;
   flex-direction: column;
@@ -26,7 +26,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
-  background-color: #fffaf0; /* spójne z tłem strony */
+  background-color: #fffaf0;
 }
 
 header h1 {
@@ -64,10 +64,10 @@ nav ul li a.active {
 /* ===== Hero ===== */
 .hero {
   background-image: url('../images/magnolia.jpg');
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 400px; /* zwiększona wysokość */
+  height: 400px;
   width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -78,7 +78,7 @@ nav ul li a.active {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 40px 20px 80px;
+  padding: 100px 20px 80px; /* zwiększono padding-top */
   gap: 30px;
   background-color: #fffaf0;
 }
