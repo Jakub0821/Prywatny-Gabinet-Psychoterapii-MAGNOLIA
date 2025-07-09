@@ -63,24 +63,12 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .hero {
-  background-color: #fffaf0;
-  padding: 30px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-logo {
-  width: 300px;
-  max-width: 90%;
-  height: auto;
-  border-radius: 10px;
+  background-image: url('../images/magnolia.jpg'); /* ścieżka do logo jako tło */
+  background-size: cover;
+  background-position: center;
+  height: 250px; /* dostosuj w razie potrzeby */
+  width: 100%;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease-in-out;
-}
-
-.hero-logo:hover {
-  transform: scale(1.05);
 }
 
 /* ===== About Section ===== */
