@@ -165,3 +165,15 @@ footer {
   margin-top: auto;
   width: 100%;
 }
+.phone-number {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.phone-number i {
+  margin-right: 8px;
+  color: var(--magnolia-dark);
+}
