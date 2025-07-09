@@ -63,19 +63,12 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0;
-  background-color: #fffaf0;
-}
-
-.hero img {
-  max-width: 400px;
   width: 100%;
-  height: auto;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  height: 300px; /* lub więcej, np. 400px */
+  background-image: url('./images/magnolia.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* ===== About Section ===== */
