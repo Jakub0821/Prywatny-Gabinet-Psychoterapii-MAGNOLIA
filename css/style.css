@@ -63,12 +63,18 @@ nav ul li a.active {
 
 /* ===== Hero ===== */
 .hero {
-  background-image: url('../images/magnolia.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-color: #fffaf0;
+}
+
+.hero img {
+  max-width: 400px;
   width: 100%;
+  height: auto;
+  border-radius: 10px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
