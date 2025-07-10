@@ -108,6 +108,38 @@ nav ul li a.active {
   transform: scale(1.05);
 }
 
+.literature-links {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.literature-links h3 {
+  color: var(--magnolia-dark);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.literature-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.literature-links li {
+  margin-bottom: 10px;
+}
+
+.literature-links a {
+  color: #444;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.literature-links a:hover {
+  color: var(--magnolia-dark);
+  text-decoration: underline;
+}
+
 footer {
     background: #333;
     color: white;
