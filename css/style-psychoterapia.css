@@ -196,3 +196,71 @@ footer {
   margin-top: auto;
   width: 100%;
 }
+
+/* Tablety i mniejsze laptopy */
+@media (max-width: 992px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  nav ul {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .cards-wrapper,
+  .books-container {
+    gap: 20px;
+  }
+  .about img {
+    max-width: 200px;
+  }
+}
+
+/* Telefony i bardzo małe tablety */
+@media (max-width: 576px) {
+  nav ul {
+    flex-direction: column;
+    gap: 8px;
+    padding: 0;
+  }
+
+  header h1 {
+    font-size: 1.6rem;
+  }
+
+  .logo img {
+    max-height: 200px;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 40px 10px;
+    margin-top: 40px;
+  }
+  .about img {
+    max-width: 150px;
+  }
+
+  .cards-wrapper,
+  .books-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 90%;
+  }
+
+  .contact-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .form-container {
+    padding: 10px;
+    width: 100%;
+  }
+
+  footer {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
